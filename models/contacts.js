@@ -2,8 +2,6 @@ const fs = require('fs/promises')
 const path = require("path");
 const crypto = require("crypto");
 
-// const crypto = require("node:crypto");
-
 const contactsPath = path.join(__dirname, "../models/contacts.json")
 
 const listContacts = async () => {
